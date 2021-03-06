@@ -34,9 +34,9 @@ RUN apt-get update -q && apt-get install -y --no-install-recommends \
 
 # NVIDIAのドライバをインストールする例 １) Ubuntuのデフォルトバージョンをインストール
 #-------------------------------------------------
-# RUN sudo apt-get update -q && sudo apt-get install -y \
-#     nvidia-driver-450 \
-#     && rm -rf /var/lib/apt/lists/*
+ RUN sudo apt-get update -q && sudo apt-get install -y \
+    nvidia-driver-450 \
+    && rm -rf /var/lib/apt/lists/*
 
 # NVIDIAのドライバをインストールする例 ２) バージョンを指定してインストール
 # 参考：https://gitlab.com/nvidia/container-images/driver/-/blob/master/ubuntu18.04/Dockerfile

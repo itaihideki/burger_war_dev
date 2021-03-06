@@ -65,6 +65,7 @@ Dockerとは仮想化技術の１つです。
 - [Dockerイメージの理解を目指すチュートリアル](https://qiita.com/zembutsu/items/24558f9d0d254e33088f)
 - [いまさらだけどDockerに入門したので分かりやすくまとめてみた](https://qiita.com/gold-kou/items/44860fbda1a34a001fc1)
 
+### 0.1 Sample
 
 ## 1. ホストPCで必要なツールのインストール
 burger_warの開発に必要なツールをインストールします。
